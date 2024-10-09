@@ -1,7 +1,7 @@
 pipeline {
     agent any
     tools {
-        maven 'Maven'  // Specify Maven version to use in the build
+        maven 'Maven 3.6.3'  // Specify Maven version to use in the build
     }
     // Define parameters that can be passed to the pipeline
     parameters {
